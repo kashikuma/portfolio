@@ -4,14 +4,20 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-image: url(../img/body.png); 
 }
-
+.bodyrgba{
+    background: rgba(255, 213, 213, 0.8);
+}
 header {
     width: 100%;
     margin: 0;
     padding: 10px;
+    font-family: 'Stick', sans-serif;
 }
-
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+}
 #menu {
     display: flex;
     width: 100%;
@@ -43,12 +49,14 @@ header {
 }
 
 main {
-    background-color: white;
+    background-image: url(../img/main.png);
     width: 900px;
     margin: 0 auto;
     padding: 10px;
 }
-
+.mainrgba {
+    background: rgba(225, 255, 255, 0.8);
+}
 section {
     margin-bottom: 20px;
 }
@@ -58,6 +66,7 @@ section h1 {
     border-left: 15px navy solid;
     border-bottom: 1px navy solid;
     padding-left: 10px;
+    font-family: 'Stick', sans-serif;
 }
 
 section p {
@@ -84,4 +93,8 @@ footer {
     width: 100%;    /* どの環境でも真ん中によるように */
     text-align: center;
     font-style: italic;
+    background-image: url(../img/footer.png);
+}
+.footerrgba {
+    background: rgba(185, 255, 168, 0.8);
 }
