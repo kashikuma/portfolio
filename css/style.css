@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+#menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    margin: 10px 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: green;
+}
+
+#top h1, #top h2, #top p {
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h1 {
+    font-size: 18px;
+    border-left: 15px navy solid;
+    border-bottom: 1px navy solid;
+    padding-left: 10px;
+}
+
+section p {
+    margin-left: 20px;
+}
+
+.items ul {
+    list-style-type: none;
+}
+
+.items li {
+    display: inline-block;  /* 横並びに */
+    border: 1px gray solid; /* ボーダープロパティ */
+    border-radius: 15px; /* ボーダーの角の丸み */
+    padding: 10px;
+      /* 内半径 */
+    margin: 10px;   /* 外半径  */
+    width: 200px;   /* ボーダーまで含めての横幅 */
+    font-weight: bold;  /* 太字 */
+    text-align: center; /* ボーダー内での中央揃え */
+}
+
+footer {
+    width: 100%;    /* どの環境でも真ん中によるように */
+    text-align: center;
+    font-style: italic;
+}
